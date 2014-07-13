@@ -1,0 +1,4 @@
+To launch:
+
+sudo easy_install Flask
+python app.py

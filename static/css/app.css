@@ -1,0 +1,22 @@
+
+
+.main_block {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    display: table;
+    background-color: #BCEAF7;
+    border-radius: 5px;
+}
+
+.main_content {
+    display: table-cell;
+    width: 450px;
+    padding: 5px;
+}
+
+.right_side {
+    display: table-cell;
+    text-align: right;
+    padding: 5px;
+}
