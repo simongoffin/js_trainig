@@ -12,6 +12,17 @@
                 console.log("someone clicked on the button");
             });
         });
+        $.ajax("/service_plus", {
+            type: "POST",
+            dataType: "json",
+            data: JSON.stringify({
+                "a": 3,
+                "b": 5,
+            }),
+            contentType: "application/json",
+        }).then(function(a) {
+            console.log("3+5=", a.addition);
+        });
     </script>
 </head>
 <body>
