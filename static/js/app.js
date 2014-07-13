@@ -4,11 +4,11 @@
     app = {};
 
     function main() {
-        var x = 0;
-        _.each(_.range(1, 101), function(i) {
-            x += i;
+        $("button").click(function() {
+            _.each(_.range(1, 11), function(i) {
+                $(".main_content").append("<div>" + i + "</div>");
+            });
         });
-        console.log("Result", x);
     };
     app.main = main;
 
