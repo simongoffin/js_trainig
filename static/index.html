@@ -8,7 +8,9 @@
     <script type="text/javascript">
         $(function() {
             app.main();
-            $("body").text("I changed the DOM")
+            $("button").click(function() {
+                console.log("someone clicked on the button");
+            });
         });
     </script>
 </head>
